@@ -1,0 +1,59 @@
+
+
+
+
+h1{
+  color:white;text-align:center;font-family:acme;font-size:37px;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('http://thenewcode.com/assets/videos/jupiter-juno-perijove.mp4') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade {
+   opacity: .5;
+}
+
+img {
+  z-index:100;
+   animation: mymove 1s infinite;
+   width:25%;position:relative;top:200px;left:39%;
+
+}
+button {
+background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    background:none;color:#e6e6e6;position:relative;left:11%;width:30%;height:50px;border-radius:8px;top:450px;font-size:20px;border:white 1px groove;
+  }
+
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(http://thenewcode.com/assets/videos/jupiter-juno-perijove.mp4) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+button:hover{
+  color:black;
+  background:#f2f2f2;
+  transition:all .5s ease-out;
+}

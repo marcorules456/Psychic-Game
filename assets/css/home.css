@@ -1,0 +1,112 @@
+
+@keyframes mymove {
+  0% {top: 10px;}
+  50% {top: 0px;}
+    100% {top: 10px;}
+
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('http://thenewcode.com/assets/videos/jupiter-juno-perijove.mp4') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade {
+   opacity: .5;
+}
+h3 {
+  color: #f2f2f2;
+}
+
+.alien{
+
+    z-index:100;
+     animation: mymove 1s infinite;
+     width:40%;
+  margin-left:70%;
+     margin-top:15%;
+
+     position:relative;
+
+
+
+}
+
+.lives{
+  width:30%;background:black;border:groove 1px black;color:red;border-radius:20px;margin-left:30%;margin-top:16%;height:10%;
+}
+.life{
+  width:20%;margin-left:3%;float:left;
+}
+.letters{
+  text-align:center;
+}
+.game {
+  margin-top:7%;background:black;padding-bottom:10%;background:url('../images/space.jpeg');margin-bottom:0px;
+}
+.rocket{
+  float:left;width:10%;margin-bottom:0px;position:relative;top:160px;
+}
+.scoreBox{
+  width:50%;border:white 2px solid;margin-left:30%;padding:5%;margin-top:3%;
+}
+.inputs{
+  position:relative;top:125px;
+}
+h4{
+  color:white;text-align:center;margin-top:5%;margin-left:17%;
+}
+.guess{
+  margin-top:0%;position:relative;bottom:29px;
+}
+input{
+  background:black;color:#e6e6e6;font-family:MS comic-sans;text-align:center;width:100%;height:30px;z-index:-2;
+  border-radius:2px;margin-top:1%;
+}
+.tries{
+  text-align:center;color:#e6e6e6;
+}
+.guessed{
+  width:100%;border-radius:9px;background:black;color:#e6e6e6;
+}
+.answer {
+  width:100%;border-radius:9px;background:black;color:#e6e6e6;height:50px;text-align:center;
+}
+button{
+  position:relative;
+  bottom:1px;
+  right:18px;
+  top:50px;
+}
+.ball{
+  width:10%;
+  height:10%;
+  position:relative;
+  float:left;
+  top:150px;
+
+
+
+
+}
+.laser{
+  float:right;
+  margin-right:5%;
+  position:relative;
+  bottom:130px;
+}
+.answert{
+  position:relative;bottom:40px;
+}
+.list{
+  font-size:19px;color:#f4f4f4;
+}
